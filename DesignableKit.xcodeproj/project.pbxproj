@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		CC57079820497DE500595918 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC57079620497DE500595918 /* IBButton.swift */; };
 		CC57079920497DE500595918 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC57079720497DE500595918 /* IBView.swift */; };
-		CC57079A20497E0B00595918 /* IBButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = CC57079620497DE500595918 /* IBButton.swift */; };
-		CC57079B20497E0B00595918 /* IBView.swift in Headers */ = {isa = PBXBuildFile; fileRef = CC57079720497DE500595918 /* IBView.swift */; };
+		CC57079A20497E0B00595918 /* IBButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = CC57079620497DE500595918 /* IBButton.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC57079B20497E0B00595918 /* IBView.swift in Headers */ = {isa = PBXBuildFile; fileRef = CC57079720497DE500595918 /* IBView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC5E9EEF20493DFB00FFE624 /* DesignableKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E9EE520493DFA00FFE624 /* DesignableKit.framework */; };
 		CC5E9EF420493DFB00FFE624 /* IBViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E9EF320493DFB00FFE624 /* IBViewTests.swift */; };
 		CC5E9EF620493DFB00FFE624 /* DesignableKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5E9EE820493DFA00FFE624 /* DesignableKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
