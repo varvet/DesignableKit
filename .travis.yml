@@ -4,18 +4,18 @@ osx_image: xcode9.2
 
 env:
   global:
-#    CC_TEST_REPORTER_ID=a2e17715bb020decffce3f4dd5c441ddb1c8d1d813ab9d8b5e77d7a5cb189ea6
+    CC_TEST_REPORTER_ID=3ea516b4d1ec163658b0ef034ca1904b7731b9c92c40bea4fe3ce5b0abf4dab0
 
 before_script:
-#  - gem install slather
-#  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64 > ./cc-test-reporter
-#  - chmod +x ./cc-test-reporter
+  - gem install slather
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
 
 script:
   - xcodebuild -sdk iphonesimulator -project DesignableKit.xcodeproj -scheme DesignableKit -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.2' CODE_SIGNING_REQUIRED=NO clean test
 
 after_script:
-#  - slather coverage -x --travis --scheme DesignableKit DesignableKit.xcodeproj
-#  - ./cc-test-reporter format-coverage -t cobertura
-#  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
+  - slather coverage -x --travis --scheme DesignableKit DesignableKit.xcodeproj
+  - ./cc-test-reporter format-coverage -t cobertura
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
   
