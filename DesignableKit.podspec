@@ -5,7 +5,7 @@ s.ios.deployment_target = '10.0'
 s.name = "DesignableKit"
 s.summary = "DesignableKit helps you keep your view and button customisations in the interface builder."
 s.requires_arc = true
-s.version = "1.0.2"
+s.version = "1.0.3"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "Cenny Davidsson" => "cenny.davidsson@varvet.com" }
