@@ -5,7 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/316be6fc3d163dae0cab/test_coverage)](https://codeclimate.com/github/varvet/DesignableKit/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/316be6fc3d163dae0cab/maintainability)](https://codeclimate.com/github/varvet/DesignableKit/maintainability)
 
-A collection of classes that gives you more options in how to style your buttons and views in the interface builder. 
+A collection of classes that gives you more options in how to style your buttons and views in the interface builder.
 
 It helps you keep your view and button customisations in the interface builder.
 
@@ -20,6 +20,16 @@ github "varvet/DesignableKit"
 ```
 
 Then run `carthage update`.
+
+### Cocoapods
+
+Make the following entry in your podfile:
+
+```
+pod 'DesignableKit', :git => 'https://github.com/varvet/DesignableKit'
+```
+
+Then run `pod install`.
 
 ## Usage
 
